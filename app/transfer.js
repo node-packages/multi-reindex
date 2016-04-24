@@ -187,6 +187,7 @@ const getTemplates = (targetTemplates) => {
     throw new Error('targetTemplates must be string with length');
   }
 
+  log.info('tarte', targetTemplates);
   return source.indices.getTemplate({
     name: targetTemplates
   }).then((templates)=> {

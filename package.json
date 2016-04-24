@@ -1,11 +1,11 @@
 {
-  "name": "chillastic",
+  "name": "multi-reindex",
   "version": "0.0.4",
   "description": "Reindex multiple elasticsearch indices, save your progress, mutate your data in-flight.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/groupby/chillastic.git"
+    "url": "git://github.com/node-packages/multi-reindex.git"
   },
   "scripts": {
     "test": "gulp test"
